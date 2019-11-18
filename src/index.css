@@ -1,0 +1,265 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #212529 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+li a {
+  color: #fff;
+}
+
+ul.links {
+  color: white;
+  display: none;
+}
+
+p, em, label, h5 {
+  color: whitesmoke !important;
+}
+
+#create-it {
+  color: #ffb400;
+  font-weight: 600;
+}
+
+
+@media screen and (min-width: 992px) {
+  .navbar-toggler {
+    display: none;
+  }
+
+  ul.links {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .landing-left-col {
+    display: none;
+  }
+
+  .landing-text {
+    justify-content: center;
+  }
+}
+
+.attorney-block {
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+.attorney-card {
+  padding-top: 15px;
+}
+
+.attorney-image {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  border-radius: 100px;
+}
+
+.dots {
+  display: flex;
+  justify-content: center;
+}
+
+div.react-reveal {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 100%;
+}
+
+.client-testimonials {
+  text-align: center;
+  max-width: 500px;
+  overflow: hidden;
+}
+
+.client-testimonials-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-block {
+  width: 100%;
+  margin-bottom: 20px;
+  padding-left: 26px;
+}
+
+.contact-form {
+  padding-left: 15px;
+}
+
+.contact-form-name {
+  padding-bottom: 10px;
+}
+
+.contact-text {
+  margin: 0;
+  font-weight: 300;
+}
+
+.contact-name {
+  font-weight: 600;
+}
+
+.footer {
+  background-color: #1f1f1f;
+}
+
+.footer-inner {
+  margin: auto;
+}
+
+.footer-subtext {
+  color: #f0f3fa;
+  text-align: center;
+  font-size: 10px;
+}
+
+.site-info {
+  text-align: center;
+  text-transform: uppercase;
+  color: #f0f3fa;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.landing {
+  background-image: url('./assets/images/sign.png');
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+}
+
+.landing-text {
+  color: white;
+  height: 100%;
+  width: 100%;
+  max-width: 825px;
+  align-items: center;
+  margin: auto !important;
+}
+
+.landing-text-wrapper {
+  height: 100%;
+}
+
+.main {
+  max-width: 825px;
+  padding: 0 20px;
+}
+
+.mynavbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 825px;
+  flex-wrap: wrap;
+}
+
+#murdock {
+  background-color: #004085;
+}
+
+#nelson {
+  background-color: #5e0005;
+}
+
+.navbar {
+  justify-content: center !important;
+  background-color: transparent !important;
+}
+
+.navbar-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 825px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: black;
+  opacity: 0.5;
+  display: flex;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  height: 100%;
+  padding: 100px 0;
+  border-top: 1px solid #ccc;
+  width: 100%;
+  margin: 0 !important;
+  border-color: #ffb400;
+}
+
+.section-landing {
+  padding: 0;
+}
+
+.section-title {
+  text-align: left;
+  padding-left: 15px;
+  padding-bottom: 15px;
+}
+
+.service-block {
+  padding-bottom: 15px;
+}
+
+.stats-block {
+  padding: 100px 0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.stat-title {
+  font-size: 60px;
+  padding-bottom: 12px;
+}
+
+.section-content {
+  width: 100%
+}
+
+#stat-1 {
+  background-color: #8a0a01;
+}
+
+#stat-2 {
+  background-color: #002f4a;
+}
+
+#stat-3 {
+  background-color: #ba5a00;
+}
+
+.testimonial {
+  font-size: 1.5em;
+}
+
+.title-text {
+  color: white;
+  padding-bottom: 15px;
+}
+
+.title {
+  color: whitesmoke;
+}
