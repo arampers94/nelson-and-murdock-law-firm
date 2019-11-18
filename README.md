@@ -1,4 +1,4 @@
-# Travel Blog
+# Nelson and Murdock Law Firm
 
 Website for a law firm based in Hell's Kitchen, New York City, NY.
 
@@ -14,12 +14,12 @@ Make sure you have either npm or yarn installed first in order to install depend
 
 1. Clone the repo
 ```
-git clone https://github.com/arampers94/nelson-and-murdock.git
+git clone https://github.com/arampers94/nelson-and-murdock-law-firm.git
 ```
 
 2. cd into the project directory
 ```
-cd nelson-and-murdock
+cd nelson-and-murdock-law-firm
 ```
 
 3. Install dependencies
